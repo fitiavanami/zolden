@@ -1,0 +1,106 @@
+.zolden {
+    text-size-adjust: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+.icon{
+    font-size: 40px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 90px;
+    right: 20px;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #647e99;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.subform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 80vh;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+h2{
+    text-align: center;
+    color: #626840;
+}
+
+label{
+    padding-left: 16px;
+    opacity: 0.8;
+}
+
+input{
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+input:focus{
+    opacity: 0.8;
+}
+
+button{
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #3e5975;
+    color: white;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #f5eded;
+    color: #181212;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .subform {
+        width: 90vw; 
+        height: auto;
+        padding: 1rem; 
+    }
+
+    input, button {
+        width: 90%;
+        height: 2.5rem; 
+    }
+
+    .icon {
+        font-size: 1.5rem; 
+        bottom: 3rem;
+        right: 0.5rem;
+    }
+
+    .zolden {
+        font-size: 2rem;
+    }
+}

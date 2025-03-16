@@ -1,0 +1,509 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ebebeb;
+    color: rgb(0, 0, 0);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav .icon {
+    font-size: 20px;
+}
+
+.iconicon{
+    margin-top: 10px;
+    margin-left: 803px;
+    display: flex;
+}
+
+header h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+    position: relative;
+    left: 100px;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#select {
+    border: none;
+    font-size: 17px;
+}
+
+.select1 {
+    font-size: 17px;
+}
+
+.cadre {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 20%;
+}
+
+.cadre p {
+    color: rgb(15, 177, 177);
+}
+
+.buttoncadre {
+    background-color: #000000;
+    color: #ebebeb;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    bottom: 12px;
+}
+
+.tete1 {
+    height: 400px;
+    background-image: url(images/FALL\ 2022\ COLLECTION.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 8px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 8px;
+    position: relative;
+    top: 30px;
+}
+
+.div1, .div2, .div3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.div1 {
+    background-image: url(images/David\ Jones\ -\ Sac\ à\ Main\ Cours\ Lycée\ Femme\ -\ Grand\ Cabas\ Fourre-Tout\ Simili\ Cuir\ PU\ -\ Sac\ Elégant\ Ville\ Travail\ Poches\ Multiples\ -\ Shopper\ Porté\ Epaule\ Bandoulière\ Capacité\ A4\ Mode\ Chic.jpg);
+    background-size: 500px;
+    height: 550px;
+    width: 100%;
+    position: relative;
+    left: 200px;
+}
+
+.div1 h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.div1 p {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.div1 button{
+    position: relative;
+    top: 250px;
+    border: none;
+    background: none;
+}
+.body{
+    background-color: #ffffff;
+}
+.part1 {
+    background-image: url(images/Capture1.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: 950px;
+    position: relative;
+    bottom: 20px;
+}
+
+.part1 button {
+    position: relative;
+    top: 50px;
+    border: none;
+    background: none;
+}
+.part2 {
+    background-image: url(images/Capture2.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: 950px;
+    position: relative;
+    bottom: 20px;
+}
+.part2 button {
+    position: relative;
+    top: 50px;
+    border: none;
+    background: none;
+}
+
+.lili ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lili ul li {
+    margin: 0 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lili ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.heee {
+    height: 200px;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+}
+.heee i{
+    color: rgb(56, 121, 121);
+    font-size: 50px;
+}
+
+.heee p {
+    margin: 5px 0;
+}
+
+nav.customer-service {
+    background-color: #e8e8e8;
+    padding: 10px;
+}
+
+nav.customer-service ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.customer-service ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav.customer-service input{
+    margin-right: 50px;
+}
+
+nav.customer-service button{
+    position: relative;
+    right: 50px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #f5eded;
+    color: #181212;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .legal-info {
+    margin-top: 20px;
+}
+
+footer .legal-info a {
+    color: #140f0f;
+    text-decoration: none;
+}
+
+
+.icon {
+    margin-top: 10px;
+    margin-left: 80px;
+    color: orangered;
+}
+
+.amidy1 img{
+    height: 500px;
+    justify-content: space-around;
+}
+
+
+.rang1{
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    margin-left: 10px;
+}
+.img1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+
+.amidy2 img{
+    height: 500px;
+    justify-content: space-around;
+}
+.img2{
+    margin-left: 10px;
+}
+
+.img2:hover{/*hover :transform mandalo souri*/
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+
+.rang2{
+    display: flex;
+    justify-content: center;
+}
+
+.div4 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height: 600px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    right: 40%;
+}
+
+.tete2 {
+    width: 80%;
+    height: 600px;
+    background-image: url(images/saryambany.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.tete2 button {
+    position: relative;
+    top: 150px;
+    border: none;
+    background: none;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cadre {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .parent {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .div1, .div2, .div3 {
+        height: 200px;
+    }
+
+    .lili ul {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .cadre {
+        width: 90%;
+        max-width: 200px;
+    }
+
+    .parent {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .div1, .div2, .div3 {
+        height: 150px;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+        left: 0;
+    }
+
+    .cadre {
+        width: 90%;
+        max-width: 300px;
+        top: 10%;
+    }
+
+    .tete1 {
+        height: 300px;
+        left: 0;
+    }
+
+    .parent {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .div1, .div2, .div3 {
+        height: 200px;
+    }
+
+    .div1 {
+        left: 0;
+        width: 100%;
+        height: 300px;
+    }
+
+    .part1, .part2 {
+        width: 100%;
+        height: 150px;
+        right: 0;
+    }
+
+    .lili ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lili ul li {
+        margin: 5px 0;
+    }
+
+    .amidy1, .amidy2 {
+        padding: 10px;
+    }
+
+    .rang1, .rang2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1, .img2 {
+        margin: 10px 0;
+    }
+
+    .tete2 {
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+    }
+
+    .div4 {
+        right: 0;
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cadre {
+        width: 90%;
+        max-width: 200px;
+    }
+
+    .div1, .div2, .div3 {
+        height: 150px;
+    }
+
+    .div1 {
+        height: 250px;
+    }
+
+    .part1, .part2 {
+        height: 100px;
+    }
+
+    .tete2 {
+        height: 300px;
+    }
+
+    .div4 {
+        height: auto;
+        padding: 10px;
+    }
+
+    .heee {
+        height: auto;
+        padding: 10px;
+    }
+
+    .customer-service ul li {
+        margin: 5px 0;
+    }
+
+    footer .newsletter input[type="email"] {
+        width: 90%;
+    }
+
+    footer .newsletter button {
+        width: 90%;
+    }
+}
