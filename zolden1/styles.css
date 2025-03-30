@@ -1,0 +1,19 @@
+.hero {
+    padding: 50px 0;
+    color: rgb(5, 3, 3);
+    width: 50%;
+    margin-left: 25%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.backhero{
+    background-image: url('images/FALL\ 2022\ COLLECTION.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 800px;
+    margin-left: 25%;
+}
